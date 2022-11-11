@@ -1,9 +1,29 @@
 /* Add styling for your page here */
 
 .App {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
 }
 
+.itemms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
 .BakeryItem {
-  
+    /* width: 500px; */
+}
+
+img {
+    width:40%;
 }
